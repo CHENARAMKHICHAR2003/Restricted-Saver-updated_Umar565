@@ -42,7 +42,7 @@ async def subscribe(app, message):
          await message.reply_photo(photo="https://files.catbox.moe/4nb6ma.jpg",caption=script.FORCE_MSG.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Now...", url=f"{url}")]]))
          return 1
       except Exception:
-         await message.reply_text("Something Went Wrong. Contact us @study_ocean_bot...")
+         await message.reply_text("Something Went Wrong. Contact us @Free_course2_bot ...")
          return 1
 
 
