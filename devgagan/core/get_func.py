@@ -461,18 +461,18 @@ def get_user_caption_preference(user_id):
 
 sessions = {}
 
-SET_PIC = "settings.jpg"
+SET_PIC = "https://iili.io/2ELZVm7.md.jpg"
 MESS = "Customize by your end and Configure your settings ..."
 
 @gf.on(events.NewMessage(incoming=True, pattern='/settings'))
 async def settings_command(event):
     buttons = [
-        [Button.inline("Set Chat ID", b'setchat'), Button.inline("Set Rename Tag", b'setrename')],
-        [Button.inline("Caption", b'setcaption'), Button.inline("Replace Words", b'setreplacement')],
-        [Button.inline("Remove Words", b'delete'), Button.inline("Reset", b'reset')],
-        [Button.inline("Login", b'addsession'), Button.inline("Logout", b'logout')],
-        [Button.inline("Set Thumbnail", b'setthumb'), Button.inline("Remove Thumbnail", b'remthumb')],
-        [Button.url("Report Errors", "https://t.me/Spark_Developer_Bots")]
+        [Button.inline("<b>Set Chat ID</b>", b'setchat'), Button.inline("Set Rename Tag", b'setrename')],
+        [Button.inline("<b>Caption</b>", b'setcaption'), Button.inline("Replace Words", b'setreplacement')],
+        [Button.inline("<b>Remove Words</b>", b'delete'), Button.inline("Reset", b'reset')],
+        [Button.inline("<b>Login</b>", b'addsession'), Button.inline("Logout", b'logout')],
+        [Button.inline("<b>Set Thumbnail</b>", b'setthumb'), Button.inline("Remove Thumbnail", b'remthumb')],
+        [Button.url("<b>Report Errors</b>", "https://t.me/Free_course2_bot")]
     ]
     
     await gf.send_file(
