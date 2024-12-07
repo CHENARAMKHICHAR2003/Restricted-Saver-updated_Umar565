@@ -7,7 +7,7 @@ START_TXT = """
 </blockquote>designed to save restricted messages from public/private channels and private groups.</blockquote>
 **First login in bot by /login then send post link.**
 
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/Spark_Developer'>ꜱᴘᴀʀᴋ ᴅᴇᴠᴇʟᴏᴘᴇʀ</a>
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/TARGETALLCOURSE'>BOT ᴅᴇᴠᴇʟᴏᴘᴇʀ CR CHOUDHARY ☺️</a>
 </b>"""
 
 FORCE_MSG = """
