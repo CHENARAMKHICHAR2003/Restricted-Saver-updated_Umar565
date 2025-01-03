@@ -54,13 +54,15 @@ async def myplan(client, message):
         time_left_str = f"{days} ᴅᴀʏꜱ, {hours} ʜᴏᴜʀꜱ, {minutes} ᴍɪɴᴜᴛᴇꜱ"
         await message.reply_text(f"⚜️ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀ ᴅᴀᴛᴀ :\n\n👤 ᴜꜱᴇʀ : {user}\n⚡ ᴜꜱᴇʀ ɪᴅ : <code>{user_id}</code>\n⏰ ᴛɪᴍᴇ ʟᴇꜰᴛ : {time_left_str}\n⌛️ ᴇxᴘɪʀʏ ᴅᴀᴛᴇ : {expiry_str_in_ist}")   
     else:
-        await message.reply_text(f"ʜᴇʏ {user},\n\n**🚫 You do not have any active premium plans!**\n\n
+        await message.reply_text(f"""ʜᴇʏ {user},
 
-🔗 *You can use only up to 10 links.*\n\n
+**🚫 You do not have any active premium plans!**
 
-✨ **Unlock premium to enjoy faster bot speed and unlimited access!**\n\n
+🔗 *You can use only up to 10 links.*
 
-📲 *Contact [@Free_course2_bot](https://t.me/Free_course2_bot) to upgrade now!*")
+✨ **Unlock premium to enjoy faster bot speed and unlimited access!**
+
+📲 *Contact [@Free_course2_bot](https://t.me/Free_course2_bot) to upgrade now!*""")
         
 
 
